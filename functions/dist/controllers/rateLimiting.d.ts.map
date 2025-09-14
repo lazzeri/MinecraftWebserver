@@ -1,0 +1,1 @@
+{"version":3,"file":"rateLimiting.d.ts","sourceRoot":"","sources":["../../controllers/rateLimiting.ts"],"names":[],"mappings":"AAIA,OAAO,EAAE,OAAO,EAAE,QAAQ,EAAE,YAAY,EAAE,MAAM,SAAS,CAAC;AA4B1D,QAAA,MAAM,2BAA2B,QAAgB,IAmBhD,CAAC;AAeF,QAAA,MAAM,2BAA2B,QAAS,OAAO,OAAO,QAAQ,QAAQ,YAAY,KAAG,IAuBtF,CAAC;AA+CF,OAAO,EACL,2BAA2B,EAC3B,2BAA2B,EAC5B,CAAC"}

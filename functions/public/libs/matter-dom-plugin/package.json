@@ -1,0 +1,69 @@
+{
+  "_from": "matter-dom-plugin",
+  "_id": "matter-dom-plugin@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Dhgk7bLcRLYyV3fC3vQ6iMg8x54ZojpQyJbz/mbHRQvUGF4j+QTZPN29Fwdy+xIgUAB9o3b1WmRStkf3aKwUlA==",
+  "_location": "/matter-dom-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "matter-dom-plugin",
+    "name": "matter-dom-plugin",
+    "escapedName": "matter-dom-plugin",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/matter-dom-plugin/-/matter-dom-plugin-1.0.0.tgz",
+  "_shasum": "62214c9d355058eedaeb6fab981502360fca7fab",
+  "_spec": "matter-dom-plugin",
+  "_where": "C:\\Users\\Luca\\Documents\\Projects\\StreamnowMaria\\functions",
+  "author": {
+    "name": "Edgar Lopez-Garcia"
+  },
+  "bugs": {
+    "url": "https://github.com/elopezga/matter-dom-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A plugin to apply matter.js's physics to DOM elements",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "case": "^1.4.2",
+    "chai": "^3.5.0",
+    "eslint": "^3.14.1",
+    "markdox": "^0.1.10",
+    "matter-js": "^0.12.0",
+    "matter-tools": "^0.10.0",
+    "mocha": "^3.2.0",
+    "replace-in-file": "^2.2.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^1.16.3"
+  },
+  "homepage": "https://github.com/elopezga/matter-dom-plugin",
+  "keywords": [
+    "matter-js",
+    "plugin",
+    "physics",
+    "dom"
+  ],
+  "license": "MIT",
+  "main": "src/matter-dom-plugin.js",
+  "name": "matter-dom-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elopezga/matter-dom-plugin.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --content-base docs"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,437 @@
+p {
+  font-family: Roboto;
+  font-size: medium;
+  color: #c7dfe3;
+}
+
+nav {
+  background-color: rgb(24, 24, 24);
+  color: #fff;
+  padding: 5px 40px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #3e3d3d;
+  padding-bottom: 5px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  color: #fff;
+  font-family: Roboto;
+  font-size: medium;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 8px;
+}
+
+nav li a:hover {
+  text-decoration: none;
+  color: #6acadb;
+}
+
+.subtitles {
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-size: medium;
+  color: white;
+}
+
+.custom-header {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  background-color: rgb(43, 141, 158);
+}
+
+.fa {
+  color: white !important;
+}
+
+.logoContainer {
+  width: 400px;
+  height: 185px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2vh;
+  background-repeat: no-repeat;
+  background-image: url('images/streamnowlogo.svg');
+}
+
+.logoContainerSmall {
+  width: 100px;
+  height: 50px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-image: url('images/streamnowlogo.svg');
+}
+
+.youtubeLabel {
+  margin-top: 15px;
+  float: left;
+  color: white;
+  margin-right: 10px;
+}
+
+.awaitingStreamLabel {
+  margin-top: 15px;
+  float: left;
+  color: white;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 1025px) {
+  .youtubeLabel {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #readyToStreamLabel {
+    display: none;
+  }
+}
+
+.discordContainer {
+  width: 70px;
+  height: 50px;
+  margin-top: 12px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-image: url('images/mainPage/discord.png');
+  background-size: contain;
+}
+
+.leaderboardContainer {
+  width: 70px;
+  height: 50px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-image: url('images/mainPage/leaderboard.png');
+  background-size: contain;
+}
+
+.youtubeContainer {
+  width: 50px;
+  height: 50px;
+  margin-top: 12px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-image: url('images/mainPage/ytIcon.png');
+  background-size: contain;
+}
+
+.youtubeContainerBig {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  float: right;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-image: url(images/mainPage/ytIcon.png);
+  background-size: contain;
+}
+
+.text-body {
+  font-family: Roboto;
+  font-size: 23px;
+  color: #effaf9 !important;
+  font-weight: lighter;
+}
+
+.btn-primary {
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: rgb(43, 141, 158);
+  border-color: #575757;
+  font-family: Roboto;
+  text-transform: uppercase;
+  line-height: 1.5 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #525252;
+  background-color: #f6fafd;
+  border-color: #77bac2;
+  font-family: Roboto;
+  text-transform: uppercase;
+  line-height: 1.5 !important;
+}
+
+.btn-lg {
+  line-height: 1.5 !important;
+}
+
+.header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  position: fixed;
+  padding-top: 15px;
+}
+
+.htmlContainer {
+  display: table;
+  margin: auto;
+}
+
+.bodyContainer {
+  display: table-cell;
+  vertical-align: middle;
+  width: 400px;
+}
+
+.htmlContainerSmall,
+.bodyContainerSmall {
+  height: 1000px;
+}
+
+.htmlContainerSmall {
+  display: table;
+  margin: auto;
+}
+
+.bodyContainerSmall {
+  display: table-cell;
+  vertical-align: middle;
+  width: 1200px;
+}
+
+.informationBox {
+  width: 1200px;
+  height: 350px;
+  margin-top: 5px;
+  background-repeat: no-repeat;
+  background-image: url('images/instructionssubmit.svg');
+}
+
+.videoPreview {
+  height: 200px;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  background-image: url('images/iconvideo.svg');
+}
+
+.readOnly {
+  pointer-events: none !important;
+}
+
+.buttonTransparent {
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+  height: 180px;
+  width: 600px;
+  cursor: pointer !important;
+  text-decoration: None !important;
+}
+
+.buttonTransparent:hover {
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+  height: 180px;
+  width: 600px;
+  cursor: pointer !important;
+  text-decoration: None !important;
+}
+
+.soundsInstructionsBox {
+  width: 1400px;
+  height: 400px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-image: url('images/soundsintructions-10.svg');
+}
+
+.linkDecoration {
+  font-family: Roboto;
+  font-size: 30px;
+  color: #288793;
+  text-decoration: none;
+}
+
+.linkDecoration:hover {
+  font-family: Roboto;
+  font-size: 30px;
+  color: #75ccd4;
+  text-decoration: none;
+}
+
+#password {
+  font-family: Arial;
+}
+
+#passwordConfirm {
+  font-family: Arial;
+}
+
+body {
+  font-family: Roboto;
+  background-color: #212121;
+  -ms-overflow-style: none;
+}
+
+.btn-lg {
+  font-size: 1.5rem;
+  line-height: 3;
+  background-color: #1b4753;
+  border-color: #212121;
+}
+
+.uploadButton {
+  background-color: #bb7b04;
+  max-width: 1000px;
+  border-color: #fcf6e7;
+}
+
+.uploadButton:hover {
+  background-color: #f1ede6;
+  max-width: 1000px;
+  border-color: #af7f06;
+  color: #402d07;
+}
+
+#hoverOverLink {
+  cursor: pointer;
+}
+
+.updates {
+  font-size: 30px !important;
+}
+
+.updatesTitle {
+  font-size: 40px;
+  color: #25b356;
+}
+
+#hoverOverLink:hover {
+  color: #bb7b04 !important;
+  cursor: pointer;
+}
+
+.soundUploadTableItem {
+  border-right: #1b4753 dotted;
+  margin: auto;
+  display: none;
+}
+
+.soundUploadTableItemShow {
+  display: flex !important;
+}
+
+.soundLibraryButton {
+  background-color: #374f5a;
+  border-color: #173540;
+  width: 150px;
+}
+
+.soundLibraryButton:hover {
+  background-color: #f1ede6;
+  max-width: 250px;
+  border-color: #324d58;
+  color: #0c3f45;
+}
+
+.buttonMainPage {
+  font-family: Roboto;
+  color: white;
+  background-color: #1b4753;
+  border-color: #212121;
+  text-transform: uppercase;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src:
+    url('/libs/fonts/roboto.woff') format('woff2'),
+    url('/libs/fonts/roboto.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Proxima_Nova_Font_Bold;
+  src: url('/fonts/Proxima_Nova_Bold.otf') format('opentype');
+}
+
+.footerStyle {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #181818;
+  color: rgba(255, 255, 255, 0.38);
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 3%;
+  padding-left: 3%;
+  font-size: 14px;
+  font-family: Roboto;
+}
+
+#introProgress {
+  width: 40%;
+  margin-left: 26.5%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #288793;
+  color: white;
+  text-align: center;
+  height: 8%;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+  background-image: -webkit-linear-gradient(270deg, rgb(11 236 235), rgb(19 106 113));
+}
+
+#whatsYounow {
+  font-size: 5vh;
+  line-height: 10vh;
+  font-family: 'Bebas Neue';
+  font-weight: 1000;
+  letter-spacing: 0.2vh;
+}
+
+#streamnowIntro {
+  font-size: 4vh;
+  max-width: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Bebas Neue';
+}
+
+.dropdown-item {
+  border-bottom: 1px solid #000000 !important;
+  cursor: pointer !important;
+}
+
+.dropdown-item:hover {
+  color: #ffffff;
+  background-color: #838080;
+}
+
+.dropdown-menu {
+  padding: 0px;
+}

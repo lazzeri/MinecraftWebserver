@@ -1,0 +1,23 @@
+.full .clr-field button {
+  width: 100%;
+  height: 115%;
+  border-radius: 5px;
+}
+
+.clr-field:hover {
+  cursor: pointer;
+}
+
+.example {
+  flex-shrink: 0;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.clr-field {
+  width: 100%;
+}
+
+.coloris {
+  cursor: pointer;
+}
