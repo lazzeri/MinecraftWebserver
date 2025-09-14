@@ -2,9 +2,10 @@ import cors from 'cors';
 import path from 'path';
 import { app, httpServer } from './controllers/database';
 import express from 'express';
-import { environment } from './controllers/secrets';
+import { environment, YOUTUBE_CHANNEL_ID } from './controllers/secrets';
 import pagesRouter from './routes/pages';
 import authRouter from './routes/auth';
+import { connectToVideo } from './controllers/youtubeMasterchatExample';
 
 // Import console-stamp with require for side effects
 require('console-stamp')(console, '[HH:MM:ss.l]');
@@ -30,3 +31,6 @@ httpServer.listen('3003', () => console.log('app is running'));
 
 console.log('ENV: ', environment);
 console.log('Connection has been established successfully.');
+
+// Connect to video - if no videoId provided, it will search for live streams from the default channel
+connectToVideo(YOUTUBE_CHANNEL_ID);

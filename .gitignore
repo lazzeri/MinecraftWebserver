@@ -94,4 +94,4 @@ firebase-debug.log
 /functions/result.zip
 /functions/25f7a56423e5.zip
 /functions/public/sounds/blackjack/jazzLove.mp3
-functions/controllers/secrets.ts
+/functions/controllers/secrets.ts

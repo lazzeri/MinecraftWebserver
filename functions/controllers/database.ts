@@ -49,7 +49,6 @@ database.listenToChannel = async (channel: string, callBack: (msg: any) => void)
 
 database.sendIoMessage = async function (channel: string, data: any): Promise<void> {
   try {
-    await rateLimiter.consume(channel); // consume 1 point per event from channel
     io.emit(channel, data);
   } catch (rejRes) {
     console.log('To many io messages for: ', channel);
