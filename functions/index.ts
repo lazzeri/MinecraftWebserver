@@ -1,6 +1,6 @@
 import cors from 'cors';
 import path from 'path';
-import { app, httpServer } from './controllers/database';
+import { app, database, httpServer } from './controllers/database';
 import express from 'express';
 import { environment, YOUTUBE_CHANNEL_ID } from './controllers/secrets';
 import pagesRouter from './routes/pages';
@@ -34,3 +34,4 @@ console.log('Connection has been established successfully.');
 
 // Connect to video - if no videoId provided, it will search for live streams from the default channel
 connectToVideo(YOUTUBE_CHANNEL_ID);
+database.sendIoMessage('/newVideo', { videoId: YOUTUBE_CHANNEL_ID });
